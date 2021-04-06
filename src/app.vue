@@ -40,10 +40,10 @@ body {
   transform: translateY(30px);
 }
 .route-enter-active {
-  transition: all ease-out;
+  transition: all 0.3s ease-out;
 }
 .route-leave-active {
-  transition: all ease-in;
+  transition: all 0.3s ease-in;
 }
 .route-enter-to,
 .route-leave-from {
