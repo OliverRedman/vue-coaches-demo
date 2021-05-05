@@ -83,6 +83,7 @@ export default {
         } else {
           await this.$store.dispatch('signup', actionPayload);
         }
+        this.$router.replace('/coaches');
       } catch (err) {
         this.error =
           err.message || 'failed to authenticate. Check your login data.';

@@ -17,7 +17,7 @@
             >Refresh</base-button
           >
           <base-button link to="/auth" v-if="!isLoggedIn && !isLoading"
-            >login</base-button
+            >Login to register as a coach</base-button
           >
           <base-button
             link
